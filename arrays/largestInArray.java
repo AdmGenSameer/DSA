@@ -1,8 +1,4 @@
-package Arrays;
-
-
-
-import java.util.*;
+package arrays;
 
 public class largestInArray {
     

@@ -1,6 +1,4 @@
-package Arrays;
-import java.util.Arrays;
-import java.util.Scanner;
+package arrays;
 
 class binarySearch{
     public static int binarySearch(int number[], int key){ 
