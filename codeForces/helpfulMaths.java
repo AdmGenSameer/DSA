@@ -3,7 +3,7 @@ package codeForces;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class helpfulMaths {
+public class helpfulMaths{
 
     public static void modifyString(String str){
         ArrayList<Integer> list = new ArrayList<>();
@@ -21,12 +21,14 @@ public class helpfulMaths {
             }
         }
     }
+    
     public static void main(String [] args){
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        modifyString(str);
+        try (Scanner sc = new Scanner(System.in)) {
+            String str = sc.nextLine();
+            modifyString(str);
+        }
 
     }
 
-    }
+}
 
